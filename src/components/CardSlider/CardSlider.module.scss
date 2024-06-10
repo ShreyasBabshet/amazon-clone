@@ -1,0 +1,37 @@
+.container {
+  width: 95%;
+  margin: auto;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem;
+  }
+
+  .cardsContainer {
+    display: flex;
+    color: #333;
+
+    overflow-x: auto;
+    position: relative;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .container {
+    width: 100%;
+  }
+
+  .cardsContainer {
+    padding: 0.5rem;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+}

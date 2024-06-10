@@ -1,0 +1,24 @@
+.carouselBtn,
+.carouselBtn:hover {
+  height: 70px;
+  background-color: whitesmoke;
+}
+
+.carouselPrevBtn {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.carouselPrevBtn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 999;
+}
+
+.carouselBtnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

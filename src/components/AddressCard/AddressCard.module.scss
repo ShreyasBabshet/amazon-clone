@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .Location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 4;
+    color: white;
+    font-size: 12px;
+
+    .link {
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+ 
+.Container{
+    width: 100%;
+    height: fit-content;
+    max-width: 1400px;
+    background-color: rgb(241, 252, 221);
+    
+}
+.Main{
+    padding: 15px;
+    display: flex;
+}
+.ReviewContainer{
+    background-color: #fff;
+    flex: 0.7;
+    padding: 1rem;
+    h2{
+        font-weight: 500;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 15px;
+    }
+}
+.Subtotal{
+    flex: 0.3;
+    background-color: red;
+    margin-left: 0.5rem;
+}
+.AddressContainer{
+    margin-top: 20px;
+    div{
+        margin-top: 10px;
+        margin-left: 10px;
+
+        p{
+            font-size: 14px;
+            margin-top: 4px;
+        }
+    }
+}
+.PaymentContainer{
+    margin-top: 15px;
+    div{
+        margin-top: 15px;
+        margin-left: 15px;
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.OrderContainer{
+    margin-top: 30px;
+
+}
+.Product {
+  display: flex;
+  align-items: center;
+}
+.Image {
+  flex: 0.3;
+  img {
+    width: 100%;
+  }
+}
+.Description {
+  flex: 0.7;
+  h4 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  p {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+
+}
+.Subtotal {
+  flex: 0.4;
+  margin-left: 15px;
+  background-color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    font-size: 20px;
+
+  }
+  small{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    span{
+      margin-left: 10px;
+    }
+  }
+
+  button{
+    width: 65%;
+    height: 33px;
+    margin-top: 20px;
+    background-color: #ffd801;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+}

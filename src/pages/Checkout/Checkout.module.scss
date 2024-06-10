@@ -1,0 +1,90 @@
+.Container {
+  width: 100%;
+  max-width: 1400px;
+  height: fit-content;
+  margin: auto;
+  background-color: rgb(241, 252, 221);
+  position: relative;
+}
+.Main {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.ShopingCart {
+  padding: 15px;
+  background-color: white;
+  flex: 0.7;
+
+  h2 {
+    font-weight: 500;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+  }
+}
+.Subtotal {
+  flex: 0.4;
+  margin-left: 15px;
+  background-color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    font-size: 20px;
+
+  }
+  small{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    span{
+      margin-left: 10px;
+    }
+  }
+
+  button{
+    width: 65%;
+    height: 33px;
+    margin-top: 20px;
+    background-color: #ffd801;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+}
+.Product {
+  display: flex;
+  align-items: center;
+}
+.Image {
+  flex: 0.3;
+  img {
+    width: 100%;
+  }
+}
+.Description {
+  flex: 0.7;
+  h4 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  p {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: transparent;
+    color: #1384b4;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

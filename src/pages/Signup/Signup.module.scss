@@ -1,0 +1,96 @@
+ 
+ 
+.LoginContainer{
+    width: auto;
+    min-width: 450px;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Logo{
+    width: 120px;
+    margin-bottom: 20px;
+    img{
+        width: 100%;
+    }
+}
+.FormContainer{
+    border: 1px solid lightgray;
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    h3{
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 33px;
+        align-self: flex-start;
+        margin-bottom: 10px;
+    }
+}
+.InputContainer{
+    width: 100%;
+    padding: 10px;
+    p{
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+    input{
+        width: 95%;
+        height: 33px;
+        padding-left:5px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        margin-top: 5px;
+        outline: none;
+        &:hover{
+            border: 1px solid orange;
+        }
+        &:focus{
+            outline:2px solid #0ac4ca;
+            border: none;
+            background-color: #f2ffff;
+        }
+    }
+}
+.LoginButton{
+    width: 70%;
+    height: 35px;
+    margin-top: 30px;
+    font-weight: 600;
+cursor: pointer;
+    &:hover{
+        background-color: #dfdfdf;
+        border: 1px solid gray;
+    }
+}
+.InfoText{
+    font-size: 12px;
+    width: 100%;
+    word-wrap: normal;
+    margin-top: 20px;
+    span{
+        color: #426bc0;
+    }
+}
+.SignupButton{
+    width: 18%;
+    height: 35px;
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: rgb(250, 193, 4);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: #f1b10d;
+    }
+}

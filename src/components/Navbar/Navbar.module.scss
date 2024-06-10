@@ -1,0 +1,93 @@
+.Container {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.InnerContainer {
+  width: 100%;
+  display: flex;
+}
+.SearchBar {
+  height: 35px;
+  flex: 1;
+  margin: 0px 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+    &::placeholder {
+      padding-left: 5px;
+      color: gray;
+    }
+  }
+}
+.SeachIconContainer {
+  height: 100%;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #febd69;
+  border-radius: 0px 5px 5px 0px;
+  img {
+    width: 22px;
+  }
+}
+.Logo {
+  width: 100%;
+  height: 100%;
+  margin-top: 12px;
+}
+.LogoContainer {
+  width: 140px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.RightContainer {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  justify-content: space-around;
+  height: 100%;
+  padding: 5px 15px;
+}
+.NavButtons {
+  color: #fff;
+  padding: 5px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 15px;
+  p {
+    &:nth-child(1) {
+      font-size: 12px;
+    }
+    &:nth-child(2) {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+.Cart {
+  cursor: pointer;
+  display: flex;
+  p {
+    color: white;
+    font-weight: 600;
+  }
+}
